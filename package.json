@@ -1,7 +1,6 @@
 {
   "name": "user",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,9 +9,21 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
     "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.2.10",
     "nodemon": "^2.0.15",
     "validator": "^13.7.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhammadshehzaib/User_Crud_mongooose.git"
+  },
+  "bugs": {
+    "url": "https://github.com/muhammadshehzaib/User_Crud_mongooose/issues"
+  },
+  "homepage": "https://github.com/muhammadshehzaib/User_Crud_mongooose#readme",
+  "description": ""
 }
